@@ -1,0 +1,24 @@
+{
+  "name": "minimal-worker",
+  "version": "1.0.0",
+  "description": "a minimal cloudflare worker",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhravya/minimal-worker.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers"
+  ],
+  "author": "Dhravya Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhravya/minimal-worker/issues"
+  },
+  "homepage": "https://github.com/dhravya/minimal-worker#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240620.0",
+    "wrangler": "^3.61.0"
+  }
+}
